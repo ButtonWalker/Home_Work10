@@ -220,12 +220,11 @@ avgTmp = avgDF[0][1]
 # Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr)
 p2p = avgDF[0][2]-avgDF[0][0]
 fig, ax = plt.subplots(figsize=(5,8))
-barChart = ax.bar(1, avgTmp, yerr=p2p)
+barChart = ax.bar(1, avgTmp, yerr=p2p, color='red')
 ax.set_xlabel('Trip')
 ax.set_ylabel('Temp(F)')
 ax.set_title('Trip Avg Temp')
 # label the bars 
-autolabels(barChart)
 plt.ylim(0, 100)
 plt.xlim(0,2)
 plt.show()
