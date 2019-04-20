@@ -54,10 +54,10 @@ def welcome():
         f"- Prior year temperatures<br/>"
         f"<br/>"
         f"/api/v1.0/start<br/>"
-        f"- (YYYY-MM-DD), calculates the MIN/AVG/MAX temperature for all dates equal to the start date<br/>"
+        f"- (YYYY-MM-DD), calculates the MIN/AVG/MAX temperature for all dates equal to the start date replace start with date<br/>"
         f"<br/>"
         f"/api/v1.0/start/end<br/>"
-        f"- (YYYY-MM-DD), calculate the MIN/AVG/MAX temperature for dates start and end date<br/>"
+        f"- (YYYY-MM-DD), calculate the MIN/AVG/MAX temperature for dates start and end date replace with date/date<br/>"
     )
 
 
